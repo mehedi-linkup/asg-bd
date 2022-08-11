@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    color: #4a4f4d;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #00263a; 
+}
+p {
+    color: #777;
+}
+a {
+    color: #0077b3;
+    text-decoration: none;
+}
+ol, ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.sec-bg-primary {
+    background-color: #18827e;
+}
+.section-padding {
+    padding: 50px 0px;
+}
+.heading-text {
+    font-size: 19.2px;
+}
+.button-primary {
+    background-color: #18827e;
+    border-color: #18827e #18827e #18827e;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    font-weight: 600;
+    font-size: 12px;
+}
+.button-primary:hover {
+    background-color: #383f48;
+    border-color: #383f48 #383f48 #22262b;
+    color: #fff;
+}
+
+
+/* Feature Video */
+.feature-video {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #00204a;
+}
+#myVideo {
+    width: 100%;
+    height: 100%;
+}
+
+/* Home Section */
+.home-intro {
+    padding: 2.4rem 0;
+}
+.home-intro p {
+    color: #f3fffd;
+    padding-top: 5px;
+    opacity: 0.7;
+    font-size: 16px;
+}
+
+/* Service */
+.heading-text {
+    font-weight: 300;
+    letter-spacing: -.05em;
+}
+.services .service-box {
+    display: flex;
+    justify-content: space-between;
+}
+.services .service-img {
+    width: 50px;
+    height: 50px;
+}
+.services .service-info article {
+    color: #777;
+    text-align: justify;
+}
+
+/* About */
+.about {
+    background-color: #f7f7f7;
+}
+
+/* Message */
+.message p {
+    text-align: justify;
+}
+
+/* Custom Owl Carousel */
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    font-size: 30px;
+}
+.img-fluid {
+    height: 316px;
+}
+
+.footer {
+    background: #212529;
+    border-top: 4px solid #212529;
+    font-size: 14px;
+}
+.footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
+    color: #FFF;
+}
+
+.footer-top .menu-heading {
+    letter-spacing: -.05em;
+    font-size: 13.5px;
+    font-weight: 700;
+}
