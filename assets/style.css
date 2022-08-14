@@ -96,14 +96,101 @@ ol, ul {
     text-align: justify;
 }
 
-/* Custom Owl Carousel */
+/* Custom Owl Carousel who are we section */
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
     font-size: 30px;
 }
-.img-fluid {
-    height: 316px;
+
+/* Our Reach */
+.branch {
+    background-color:#f7f7f7;;
+}
+/* Our Brand */
+@media(min-width: 1200px) {
+    .brand-img {
+        height: 300px;
+    }
 }
 
+/* Awards Section */
+.awards {
+    background-color: #f7f7f7;
+}
+.award-no {
+    color: #18827e;
+    font-size: 35px;
+    line-height: 35px;
+    display: block;
+}
+/* Boss Section */
+.boss {
+    background-color: #212529;
+    border-color: #16181b;
+}
+/* Permonance Section */
+.performance {
+    background-color: #18827e;
+}
+.performance .counter svg {
+    font-size: 22px;
+}
+
+/* Wall */
+.wall .item a::before {
+    content: '';
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-out;
+}
+.wall .item a:hover::before {
+    visibility: visible;
+}
+
+/* Start Sister Concern */
+.sister-concern {
+    background-color: #f7f7f7;
+}
+.company img {
+    transition: all 0.2s ease-in-out;
+}
+.company img:hover {
+    transform: scale(1.2);
+}
+/* Office */
+.feature-box {
+    display: flex;
+}
+.feature-box .feature-box-icon {
+    border: 1px solid #cecece;
+    border-radius: 100%;
+    background: transparent;
+    height: 43px;
+    width: 43px;
+    padding: 12.8px;
+    font-size: 16px;
+    box-shadow: 0 0 5px 0px rgb(2 2 2 / 20%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
+}
+.feature-box-icon svg {
+    color: #a9a9a9;
+}
+.feature-box .feature-box-info {
+    flex: 1 1 100%;
+    padding-left: 15px;
+}
+.feature-box h4 {
+    color: #212529;
+}
+
+/* Footer Start */
 .footer {
     background: #212529;
     border-top: 4px solid #212529;
