@@ -72,7 +72,7 @@ $('.third-carousel.owl-carousel').owlCarousel({
 $('.wall .owl-carousel').owlCarousel({
     margin:10,
     loop:true,
-    nav:false,
+    nav:true,
     dots:false,
     responsive:{
         0:{
@@ -91,3 +91,13 @@ $('.wall .owl-carousel').owlCarousel({
 $(function(){
 	$('.image-link').viewbox();
 });
+
+// On Scroll Function
+$(window).on('scroll', function() {
+    if ($(window).scrollTop() > 150) {
+        $('.navbar').addClass('bar-fixed');
+    } else {
+        $('.navbar').removeClass('bar-fixed');
+    }
+});
+
